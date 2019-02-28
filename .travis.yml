@@ -1,0 +1,11 @@
+language: node_js
+
+install:
+- npm ci
+
+branches:
+  only:
+  - master
+
+deploy:
+  script: "npm run semantic-release"
