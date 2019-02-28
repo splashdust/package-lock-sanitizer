@@ -16,7 +16,6 @@ $ package-lock-sanitizer --help
 ```
 
 Example usage as a pre-commit hook with Husky:
-(in package.json)
 ```json
 "husky": {
     "hooks": {
@@ -24,3 +23,4 @@ Example usage as a pre-commit hook with Husky:
     }
 },
 ```
+Don't forget to add `"package-lock-sanitizer": "package-lock-sanitizer"` to your `scripts` section.
