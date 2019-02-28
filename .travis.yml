@@ -10,8 +10,8 @@ branches:
   only:
   - master
 
-build:
-  script: "echo \"No build step neccesary...\""
+script:
+  - echo "No build step neccesary..."
 
 deploy:
   script: "npm run semantic-release"
