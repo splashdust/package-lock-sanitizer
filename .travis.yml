@@ -12,6 +12,7 @@ cache: npm
 branches:
   only:
   - master
+  - /^greenkeeper/.*$/
 
 script:
   - echo "No build step neccesary..."
