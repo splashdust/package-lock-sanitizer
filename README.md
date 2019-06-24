@@ -3,7 +3,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Build Status](https://travis-ci.com/splashdust/package-lock-sanitizer.svg?branch=master)](https://travis-ci.com/splashdust/package-lock-sanitizer/)
-[![Latest Version](https://img.shields.io/npm/v/package-lock-sanitizer/latest.svg)](https://www.npmjs.com/package/package-lock-sanitizer)
+[![Latest Version](https://img.shields.io/npm/v/package-lock-sanitizer/latest.svg)](https://www.npmjs.com/package/package-lock-sanitizer) [![Greenkeeper badge](https://badges.greenkeeper.io/splashdust/package-lock-sanitizer.svg)](https://greenkeeper.io/)
 
 This tool rewrites the resolved URLs in package-lock.json, replacing the registry part of the URL with the offcial NPM registry URL (by default).
 
