@@ -27,7 +27,7 @@
     "@oclif/command": "^1.5.11",
     "@oclif/config": "^1.12.8",
     "@oclif/errors": "^1.2.2",
-    "@oclif/plugin-help": "^2.1.6",
+    "@oclif/plugin-help": "^3.0.0",
     "fs": "0.0.2",
     "replace-in-file": "^6.0.0"
   },
