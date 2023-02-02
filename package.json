@@ -32,11 +32,11 @@
     "replace-in-file": "^6.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
+    "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^8.0.0",
     "cz-conventional-changelog": "^3.0.0",
     "husky": "^4.0.2",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^20.1.0"
   },
   "config": {
     "commitizen": {
