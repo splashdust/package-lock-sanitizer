@@ -12,7 +12,7 @@ class PackageLockSanitizer extends Command {
         from: /(https?[^"@]+)(\/@.+|\/[^/]+\/-\/.+tgz)/g,
         to: flags.registry + '$2'
     }
-    console.log("Rewrote registry URLs in ", replace.sync(replaceOptions).join(', '))
+    console.log("Rewrote registry URLs in ", replace.sync(replaceOptions).map(result => result.file).join(', '))
   }
 }
 
