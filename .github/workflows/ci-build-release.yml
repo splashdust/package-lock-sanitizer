@@ -24,9 +24,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build library
-        run: npm run build
-
       - name: Run semantic release and publish new version to npm
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
